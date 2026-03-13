@@ -9,7 +9,7 @@ namespace BananaParty.Minigame.Sample
         public void OnStartGameButtonClick()
         {
             _clickerMinigame = new ClickerMinigame();
-            _clickerMinigame.StartMinigame(Camera.main);
+            _clickerMinigame.StartMinigame();
         }
 
         public void OnEndGameButtonClick()
