@@ -9,7 +9,7 @@
   "samples": [
     {
       "displayName": "Minigame Sample",
-      "description": "Contains sample for testing integration",
+      "description": "Contains sample for integration",
       "path": "Samples~/MinigameSample"
     }
   ],

@@ -9,7 +9,12 @@ namespace BananaParty.Minigame.Sample
         public void OnStartGameButtonClick()
         {
             _clickerMinigame = new ClickerMinigame();
+            _clickerMinigame.SetLanguage("ru");
+            _clickerMinigame.SetSoundVolume(0.25f);
             _clickerMinigame.StartMinigame();
+
+            // Volume should be able to change while the game is running
+            _clickerMinigame.SetSoundVolume(0.75f);
         }
 
         public void OnEndGameButtonClick()
