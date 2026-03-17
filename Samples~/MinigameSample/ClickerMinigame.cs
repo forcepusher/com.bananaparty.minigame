@@ -8,11 +8,12 @@ namespace BananaParty.Minigame.Sample
     {
         private const string SceneName = "ClickerMinigameScene";
 
+        private Scene? _minigameScene = null;
+
         private string _languageCode = "en";
         private float _volume = 1f;
 
         private ClickerMinigameCanvas _clickerMinigameCanvas;
-        private Scene? _minigameScene = null;
 
         public bool IsMinigameFinished => _clickerMinigameCanvas ? _clickerMinigameCanvas.IsGameFinished : false;
 
