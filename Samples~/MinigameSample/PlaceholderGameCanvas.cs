@@ -24,7 +24,7 @@ namespace BananaParty.Minigame.Sample
 
             Debug.Log("Minigame result = " + _clickerMinigame.MinigamePlayResult);
 
-            _clickerMinigame.EndMinigame();
+            _clickerMinigame.StopMinigame();
             _clickerMinigame = null;
         }
 
@@ -37,7 +37,7 @@ namespace BananaParty.Minigame.Sample
             {
                 Debug.Log("Minigame result = " + _clickerMinigame.MinigamePlayResult);
 
-                _clickerMinigame.EndMinigame();
+                _clickerMinigame.StopMinigame();
                 _clickerMinigame = null;
             }
         }
